@@ -1,0 +1,35 @@
+.contact-form{
+  background-color: var(--white);
+  border-radius:10px;
+  box-shadow: 0px 1px 10px 1px #0000001A;
+  padding: 3rem 5rem;
+}
+.contact-form h2{
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  font-weight:var(--bold);
+}
+.form-control{
+  font-size: 1.4rem;
+  margin: 1rem 0rem;
+}
+input[type=text], input[type=email]{
+  border-radius:30px;
+  padding:1rem 2rem;
+}
+textarea.form-control{
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+.loc-box{
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px #0000001A;
+  padding: 4rem;
+  height: 100%;
+}
+.loc-box h4{
+  font-size:2.4rem;
+  line-height: 3rem;
+  font-weight: var(--bold);
+}
