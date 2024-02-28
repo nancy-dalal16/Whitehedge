@@ -8,12 +8,19 @@
 #hero h1 span{
   color:var(--lightblue);
 }
-.circle-immg{
+.circle-img{
   position: relative;
+}
+.rocket-box{
+  margin:3rem;
+}
+.rocket-box:hover .rocket{
+  transform: scale(1.2);
+  transition: .4s ease-in;
 }
 .rocket{
   position: absolute;
-  animation: updown 2s ease infinite;
+  /* animation: updown 2s ease infinite; */
 }
 
 .rocket-box h4{

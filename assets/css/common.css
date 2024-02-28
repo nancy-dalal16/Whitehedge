@@ -121,6 +121,9 @@ p {
     text-decoration: none;
     font-weight: var(--semibold);
     display: inline-flex;
+    transition: 0.4s ease-out;
+    animation: slide-left 1s;
+    animation-fill-mode: forwards;
 }
 .btn-primary:hover {
     background: var(--lightblue);
@@ -128,6 +131,17 @@ p {
     color:var(--white) !important;
     transition: 0.4s ease-in;
     animation: slide-right .4s forwards !important;
+}
+
+@keyframes slide-left {
+  from {
+    box-shadow: inset 8.79928em 0 0 0.01px var(--lightblue);
+}
+to {
+    box-shadow: inset 0 0 0 0.01px var(--primary);
+    color: var(--white);
+}
+  
 }
 @keyframes slide-right {
     from {
@@ -182,12 +196,12 @@ h5{
     color:var(--black);
   }
   .test-contain .desc{
-    margin-top:-12rem !important;
+    margin-top:-15rem !important;
     padding:2rem 0rem;
   }
 
   .test-contain .desc p{
-    padding:1rem 3rem;
+    padding:1rem 5rem;
   }
   .sec-1{
     position: relative;
@@ -217,13 +231,13 @@ h5{
   
   .owl-prev{
     position: absolute;
-    left: -5px;
+    left: 10px;
     top: 50%;
   }
   
   .owl-next{
     position: absolute;
-    right:-5px;
+    right:10px;
     top:50%;
   }
   
