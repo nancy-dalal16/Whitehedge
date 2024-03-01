@@ -177,7 +177,9 @@ h5{
     text-transform: uppercase;
 }
 
-
+#test-slider{
+  margin:0 5px;
+}
 .test-contain{
     padding: 3rem;
     background: var(--white);

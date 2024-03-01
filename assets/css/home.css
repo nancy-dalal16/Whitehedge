@@ -8,6 +8,10 @@
 #hero h1 span{
   color:var(--lightblue);
 }
+
+#about{
+  margin: 0 10px;
+}
 .circle-img{
   position: relative;
 }
@@ -41,8 +45,12 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin:0 10px;
 }
 
+#blogs{
+  margin: 0 10px;
+}
 
 .blog-sec{
   background-color: var(--white);

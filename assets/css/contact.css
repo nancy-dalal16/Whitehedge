@@ -1,3 +1,6 @@
+#contact, #location{
+  margin:0 10px;
+}
 .contact-form{
   background-color: var(--white);
   border-radius:10px;
