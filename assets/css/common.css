@@ -122,7 +122,7 @@ p {
     font-weight: var(--semibold);
     display: inline-flex;
     transition: 0.4s ease-out;
-    animation: slide-left 1s;
+    animation: slide-left 0.6s backwards;
     animation-fill-mode: forwards;
 }
 .btn-primary:hover {
