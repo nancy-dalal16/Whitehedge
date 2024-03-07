@@ -89,7 +89,7 @@ a:focus {
     --light: 300;
 }
 
-p, ul>li  {
+p {
     /* margin-bottom: 8px; */
     line-height: 2.4rem;
     color: var(--black);
