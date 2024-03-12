@@ -39,6 +39,11 @@ h4{
   transform: scale(1.05);
 }
 
+.offer-card:hover img{
+  transition: 0.2s ease-in-out;
+  transform: scale(1.2);
+}
+
 .pro-card{
   padding: 2rem;
   background-color: var(--white);
