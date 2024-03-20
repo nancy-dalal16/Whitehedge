@@ -1,5 +1,9 @@
 #hero{
-  height: 100vh;
+  /* height: 100vh; */
+}
+
+#hero h1{
+  font-size:5.2rem;
 }
 #number{
   background-color: #020D23;
@@ -11,9 +15,9 @@ h4{
   font-weight: var(--medium);
 }
 .trans-card{
-  background: #FFFFFF12;
+  /* background: #FFFFFF12; */
   padding: 2.4rem 1.6rem;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 .trans-card:hover{
   transform: scale(1.05);
@@ -21,7 +25,155 @@ h4{
 .trans-card h1{
   font-size: 4.8rem;
   font-weight: var(--bold);
+  color: var(--lightblue);
 }
+#number{
+  position: relative;
+}
+#number .border-line{
+  border-left:1px dashed var(--white);
+  border-right:1px dashed var(--white);
+  mask-border-repeat:space ;
+}
+
+#approach{
+  position: relative;
+}
+
+.sqr1::before{
+  content: "";
+  background-color: #2256BB;
+  border-radius:3.5rem;
+  width: 20rem;
+  height: 20rem;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-wrap: wrap;
+}
+
+.sqr1 > *{
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  /* transform: rotate(-45deg); */
+}
+
+
+.sqr2::before{
+  content: "";
+  background-color: #031E39;
+  border-radius:3.5rem;
+  width: 20rem;
+  height: 20rem;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-wrap: wrap;
+}
+
+.sqr2 > *{
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  /* transform: rotate(-45deg); */
+}
+
+.sqr3::before{
+  content: "";
+  background-color: #193975;
+  border-radius:3.5rem;
+  width: 20rem;
+  height: 20rem;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-wrap: wrap;
+}
+
+.sqr3 > *{
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  /* transform: rotate(-45deg); */
+}
+
+
+.square p{
+  font-size: 2rem;
+  opacity: 1;
+  width: 18rem;
+  /* transform: rotate(-45deg); */
+}
+
+.square img{
+  /* transform: rotate(-45deg); */
+  width: 45%;
+}
+
+
+.square-row{
+  margin-top: -1rem;
+  padding-bottom: 10rem;
+}
+
+.square:hover{
+  scale: 1.05;
+  transition: 0.1s ease-in;
+}
+
+#clients{
+  background: var(--white);
+}
+
+#choose p{
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  padding: 0 3rem;
+}
+
+#choose p b{
+  opacity: 1;
+}
+
+#choose h6{
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  font-weight: var(--bold);
+}
+
+.circle-box{
+  display: block;
+  width: 25%;
+}
+
+.round1, .round3{
+  background: url('../img/outsourced-product-development/Group\ 53.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 55vw;
+  height: 55vh;
+  margin: 0.5rem;
+  overflow: visible;
+}
+.round2, .round4{
+  background: url('../img/outsourced-product-development/Group\ 54.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 55vw;
+  height: 55vh;
+  margin: 0.5rem;
+  overflow: visible;
+}
+
+
+
 .offer-card{
   box-shadow: 0px 1px 10px 1px #0000001A;
   border-radius: 30px;
@@ -61,4 +213,29 @@ h4{
   #hero img{
     width: 100% !important;
   }
+  #number .border-line{
+    border-top:1px dashed var(--white);
+    border-bottom:1px dashed var(--white);
+    mask-border-repeat:space ;
+    border-left: none;
+    border-right: none;
+  }
+
+  .square-row{
+    margin-top: 10rem;
+  }
+  .sqr2{
+    margin-bottom: 10rem;
+  }
+  .round1, .round3 {
+    width: 28rem;
+  }
+  .round2, .round4{
+    width: 28rem;
+    margin-top: -10rem;
+  }
+  .round3{
+    margin-top:-8rem;
+  }
+ 
 }
