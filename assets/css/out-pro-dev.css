@@ -156,20 +156,22 @@ h4{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 55vw;
+  width: 75vw;
   height: 55vh;
   margin: 0.5rem;
   overflow: visible;
+  padding: 2rem;
 }
 .round2, .round4{
   background: url('../img/outsourced-product-development/Group\ 54.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 55vw;
+  width: 75vw;
   height: 55vh;
   margin: 0.5rem;
   overflow: visible;
+  padding: 2rem;
 }
 
 
@@ -227,15 +229,15 @@ h4{
   .sqr2{
     margin-bottom: 10rem;
   }
-  .round1, .round3 {
+  /* .round1, .round3 {
     width: 28rem;
-  }
+  } */
   .round2, .round4{
-    width: 28rem;
-    margin-top: -10rem;
+    /* width: 28rem; */
+    margin-top: -12rem;
   }
   .round3{
-    margin-top:-8rem;
+    margin-top:-9rem;
   }
  
 }
