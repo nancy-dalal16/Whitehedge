@@ -156,22 +156,22 @@ h4{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 75vw;
+  width: 70vw;
   height: 55vh;
   margin: 0.5rem;
   overflow: visible;
-  padding: 2rem;
+  padding: 1rem;
 }
 .round2, .round4{
   background: url('../img/outsourced-product-development/Group\ 54.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 75vw;
+  width: 70vw;
   height: 55vh;
   margin: 0.5rem;
   overflow: visible;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 
