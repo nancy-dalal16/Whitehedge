@@ -1,0 +1,70 @@
+
+.square-row{
+  margin-top: -2rem;
+  padding-bottom: 10rem;
+}
+
+.sqr4::before{
+  content: "";
+  background-color: #193AB0;
+  border-radius:3.5rem;
+  width: 20rem;
+  height: 20rem;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-wrap: wrap;
+}
+
+.sqr4 > *{
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  /* transform: rotate(-45deg); */
+}
+
+.sqr5::before{
+  content: "";
+  background-color: #1970B0;
+  border-radius:3.5rem;
+  width: 20rem;
+  height: 20rem;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-wrap: wrap;
+}
+
+.sqr5 > *{
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  /* transform: rotate(-45deg); */
+}
+
+.round1,.round2,.round3,.round4{
+  width: 40rem;
+  height: 42rem;
+}
+
+@media(max-width:680px){ 
+
+  .sqr1{
+    margin-bottom: 13rem;
+  }
+  .sqr2{
+margin-bottom: 8rem;
+  }
+  .sqr3{
+    margin-bottom: 8rem;
+  }
+  .sqr4{
+    margin-bottom: 11rem;
+  }
+  .round1, .round2,  .round3,  .round4{
+    width: 75vw;
+    height: 60vh;
+  }
+}

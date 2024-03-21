@@ -31,8 +31,8 @@ h4{
   position: relative;
 }
 #number .border-line{
-  border-left:1px dashed var(--white);
-  border-right:1px dashed var(--white);
+  border-left:1px dashed rgba(255, 255, 255, 0.5);
+  border-right:1px dashed rgba(255, 255, 255, 0.5);
   mask-border-repeat:space ;
 }
 
@@ -102,10 +102,11 @@ h4{
 }
 
 
-.square p{
+.square h6{
   font-size: 2rem;
   opacity: 1;
   width: 18rem;
+  font-weight: var(--bold);
   /* transform: rotate(-45deg); */
 }
 
@@ -124,6 +125,23 @@ h4{
   scale: 1.05;
   transition: 0.1s ease-in;
 }
+.square p{
+  font-size: 1.4rem;
+  text-align: center;
+  color:var(--white);
+}
+
+/* .square:hover .static-cont{
+  display: none !important;
+  transition: 1s ease-in;
+}
+.square:hover .hover-cont{
+  display: block;
+ 
+}
+.hover-cont{
+  display: none;
+} */
 
 #clients{
   background: var(--white);
@@ -144,6 +162,7 @@ h4{
   font-size: 1.4rem;
   line-height: 2.6rem;
   font-weight: var(--bold);
+  text-align: center;
 }
 
 .circle-box{
@@ -152,23 +171,23 @@ h4{
 }
 
 .round1, .round3{
-  background: url('../img/outsourced-product-development/Group\ 53.svg');
+  background: url('../img/product-engineering/Group\ 53.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 70vw;
-  height: 55vh;
+  width: 50rem;
+  height: 40rem;
   margin: 0.5rem;
   overflow: visible;
   padding: 1rem;
 }
 .round2, .round4{
-  background: url('../img/outsourced-product-development/Group\ 54.svg');
+  background: url('../img/product-engineering/Group\ 54.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 70vw;
-  height: 55vh;
+  width: 50rem;
+  height: 40rem;
   margin: 0.5rem;
   overflow: visible;
   padding: 1rem;
@@ -216,8 +235,8 @@ h4{
     width: 100% !important;
   }
   #number .border-line{
-    border-top:1px dashed var(--white);
-    border-bottom:1px dashed var(--white);
+    border-top:1px dashed rgba(255, 255, 255, 0.5);
+    border-bottom:1px dashed rgba(255, 255, 255, 0.5);
     mask-border-repeat:space ;
     border-left: none;
     border-right: none;
@@ -238,6 +257,11 @@ h4{
   }
   .round3{
     margin-top:-9rem;
+  }
+
+  .round1, .round2,  .round3,  .round4{
+    width: 75vw;
+    height: 60vh;
   }
  
 }
