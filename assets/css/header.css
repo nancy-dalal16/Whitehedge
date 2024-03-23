@@ -66,6 +66,20 @@ padding:1rem;
   box-shadow: none;
 }
 
+
+.dropdown-menu[data-bs-popper] {
+  right: 0px !important;
+  left:auto !important;
+  }
+  
+.list-unstyled{
+  margin:0px;
+}
+
+.list-unstyled .nav-link{
+  padding-left:0px !important;
+}
+
 @media(max-width:680px) {
 
   .header{
@@ -78,3 +92,140 @@ padding:1rem;
   }
 
 }
+
+/*New Mneu */
+.navbar .megamenu {
+  padding: 1rem;
+}
+.navbar-collapse li {
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-nav li a {
+  display: block;
+  padding: 0.6rem;
+  color: var(--black);
+  opacity:0.8;
+  transition: all 0.3s;
+  font-weight: var(--semibold);
+  font-size: 1.6rem;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: var(--primary);
+}
+
+.menu-head h6{
+  font-size: 1.6rem;
+  font-weight: var(--bold);
+  margin:1rem;
+  flex-wrap: wrap;
+}
+
+/* .dropdown-item  .menu-head img{
+  width: 30%;
+} */
+
+.navbar-nav li a:hover,
+.navbar-nav li a.active {
+  color: var(--primary);
+}
+
+
+
+.has-megamenu {
+  position: static!important;
+}
+
+.dropdown-item{
+  white-space: nowrap;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+	/* ============ desktop view ============ */
+
+  @media all and (min-width: 1250px) {
+
+    .navbar .has-megamenu {
+      position: static !important;
+    }
+
+    .navbar .megamenu {
+      width: 65%;
+      margin-top: 1rem !important;
+      padding: 1rem;
+      position: absolute;
+      background: var(--white);
+      box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
+      /* border-top: 2.5px solid var(--primary); */
+      border-radius: 7px;
+    }
+
+  }
+
+  @media all and (max-width: 1025px) {
+
+    .navbar .has-megamenu {
+      position: static !important;
+    }
+
+    .navbar .megamenu {
+      width: 75%;
+      margin-top: 1rem !important;
+      padding: 1rem;
+      position: absolute;
+      background: var(--white);
+      box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
+      /* border-top: 2.5px solid var(--primary); */
+      border-radius: 7px;
+    }
+
+  }
+
+  /* ============ desktop view .end// ============ */
+
+  
+		/* ============ mobile view ============ */
+		@media(max-width: 991px) {
+
+			.navbar.fixed-top .navbar-collapse,
+			.navbar.sticky-top .navbar-collapse {
+				overflow-y: auto;
+				max-height: 90vh;
+				margin-top: 10px;
+			}
+      .navbar .megamenu {
+        left: 0;
+				right: 0;
+				width: 100%;
+				margin-top: 0;
+      }
+      .navbar-collapse li {
+        padding: 1rem 0rem;
+    }
+    .navbar-nav li a {
+      font-size: 2rem;
+      line-height: 2.4rem;
+    }
+      .navbar-nav{
+        margin-top:5rem;
+      }
+      .navbar .megamenu{
+        background: var(--white);
+        box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
+        /* border-top: 2.5px solid var(--primary); */
+        border-radius: 7px;
+    }
+    
+		}
+
+		/* ============ mobile view .end// ============ */
