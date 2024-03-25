@@ -169,6 +169,7 @@ padding:1rem;
 .navbar-nav li a:hover,
 .navbar-nav li a.active {
   color: var(--primary);
+  background-color:transparent;
 }
 
 
