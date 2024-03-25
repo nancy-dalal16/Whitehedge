@@ -24,6 +24,10 @@
 }
 .rocket{
   position: absolute;
+  width: 48%;
+  background: #fff;
+  border-radius: 50%;
+  padding: 4rem;
   /* animation: updown 2s ease infinite; */
 }
 

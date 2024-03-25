@@ -1,4 +1,4 @@
-
+/* 
 .square-row{
   margin-top: -2rem;
   padding-bottom: 10rem;
@@ -21,7 +21,6 @@
   position: relative;
   overflow: hidden;
   padding: 1rem;
-  /* transform: rotate(-45deg); */
 }
 
 .sqr5::before{
@@ -41,7 +40,13 @@
   position: relative;
   overflow: hidden;
   padding: 1rem;
-  /* transform: rotate(-45deg); */
+} */
+
+.sqr4{
+  background-color: #193AB0;
+}
+.sqr5{
+  background-color: #1970B0;
 }
 
 .round1,.round2,.round3,.round4{

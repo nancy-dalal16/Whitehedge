@@ -40,81 +40,24 @@ h4{
   position: relative;
 }
 
-/* .sqr1{
-  background: url('../img/product-engineering/Rectangle\ 21.svg');
+.square{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius:3.5rem;
   box-sizing: border-box;
-  width: 100%;
-  padding: 5rem;
-  height: 32rem;
-  width: auto;
+  /* width: 20rem;
+  height: 20rem; */
+  padding: 12rem;
   overflow: hidden;
-}
- */
-
-
-.sqr1::before{
-  content: "";
-  background-color: #2256BB;
-  border-radius:3.5rem;
-  width: 20rem;
-  height: 20rem;
   transform: rotate(45deg);
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  flex-wrap: wrap;
 }
-
-.sqr1 > *{
-  position: relative;
+ 
+.square > *{
+  position: absolute;
   overflow: hidden;
   padding: 1rem;
-  /* transform: rotate(-45deg); */
-}
-
-
-.sqr2::before{
-  content: "";
-  background-color: #031E39;
-  border-radius:3.5rem;
-  width: 20rem;
-  height: 20rem;
-  transform: rotate(45deg);
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  flex-wrap: wrap;
-}
-
-.sqr2 > *{
-  position: relative;
-  overflow: hidden;
-  padding: 1rem;
-  /* transform: rotate(-45deg); */
-}
-
-.sqr3::before{
-  content: "";
-  background-color: #193975;
-  border-radius:3.5rem;
-  width: 20rem;
-  height: 20rem;
-  transform: rotate(45deg);
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  flex-wrap: wrap;
-}
-
-.sqr3 > *{
-  position: relative;
-  overflow: hidden;
-  padding: 1rem;
-  /* transform: rotate(-45deg); */
+  transform: rotate(-45deg);
 }
 
 
@@ -128,36 +71,56 @@ h4{
 
 .square img{
   /* transform: rotate(-45deg); */
-  width: 45%;
+  width: 35%;
 }
-
-
+.sqr1{
+  background-color: #2256BB;
+}
+.sqr2{
+  background-color: #031E39;
+}
+.sqr3{
+  background-color: #193975;
+}
 .square-row{
-  margin-top: -1rem;
+  margin-top: -5rem;
   padding-bottom: 10rem;
 }
 
-.square:hover{
+/* .square:hover{
   scale: 1.05;
   transition: 0.1s ease-in;
-}
+} */
 .square p{
   font-size: 1.4rem;
   text-align: center;
   color:var(--white);
 }
-/* 
+
 .square:hover .static-cont{
   display: none !important;
-  transition: 1s ease-in;
 }
 .square:hover .hover-cont{
   display: block;
  
 }
+.square:hover{
+  /* scale: 1.2; */
+  transition: 0.2s ease-in-out;
+  padding: 15rem;
+  /* height: 20rem; */
+  cursor: pointer;
+  margin:2rem;
+
+}
+
+.square:hover > * {
+  transition: 0.4s ease-in;
+  scale: 0.8 !important;
+}
 .hover-cont{
   display: none;
-} */
+}
 
 #clients{
   background: var(--white);
