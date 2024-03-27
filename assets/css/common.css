@@ -67,6 +67,10 @@ body {
     background-color: #f8f8f8;
 }
 
+video{
+  outline: 4px solid #f8f8f8 !important;
+  outline-offset: -4px !important;
+}
 
 a,
 a:hover,
