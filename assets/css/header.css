@@ -32,17 +32,17 @@ header #logo img{
   background-image: url('../img/Outsourced-Product-Dev.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 4.5rem;
   width: 80%;
   background-color: var(--links);
   border-radius: 4px;
   padding: 3rem;
 }
 .menu-icon2{
-  background-image: url('../img/Digital-Engineering.svg');
+  background-image: url('../img/Cloud\ and\ Digital\ Engineering.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 10rem;
   width: 80%;
   background-color: var(--links);
   border-radius: 4px;
@@ -52,7 +52,7 @@ header #logo img{
   background-image: url('../img/ODC.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 4.8rem;
   width: 80%;
   background-color: var(--links);
   border-radius: 4px;
@@ -60,12 +60,15 @@ header #logo img{
 }
 .navbar-nav li a:hover .menu-icon1{
  background-image: url('../img/home/Product-Engineering.gif');
+ background-size: 4.5rem;
 }
 .navbar-nav li a:hover .menu-icon2{
   background-image: url('../img/home/Cloud-and-Digital-Engineering.gif');
+  background-size: 4.5rem;
  }
  .navbar-nav li a:hover .menu-icon3{
   background-image: url('../img/home/ODC_Dark.gif');
+  background-size: 4.8rem;
  }
 
 .navbar .megamenu {
