@@ -4,3 +4,6 @@
 .line2{
   margin-top: -5rem;
 }
+.square:hover{
+  position: absolute;
+}

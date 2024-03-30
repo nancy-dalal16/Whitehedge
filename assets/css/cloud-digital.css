@@ -42,6 +42,9 @@
   padding: 1rem;
 } */
 
+.square:hover{
+  position: absolute;
+}
 .sqr4{
   background-color: #193AB0;
 }

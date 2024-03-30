@@ -48,9 +48,9 @@ h4{
   background-size: cover;
   border-radius:3.5rem;
   box-sizing: border-box;
-  /* width: 20rem;
-  height: 20rem; */
-  padding: 12rem;
+  width: 25rem;
+  height: 25rem;
+  /* padding: 12rem; */
   overflow: hidden;
   transform: rotate(45deg);
 }
@@ -97,26 +97,34 @@ h4{
   font-size: 1.4rem;
   text-align: center;
   color:var(--white);
+  opacity: 1;
+}
+@keyframes slideaway {
+  from { display: block; }
+  to { transform: translateY(40px);}
 }
 
+
 .square:hover .static-cont{
+  animation: slideaway 200ms;
   display: none !important;
 }
 .square:hover .hover-cont{
-  display: block;
- 
+  transition: opacity 200ms, display 200ms;
+  opacity: 1;
 }
 
 .square:hover{
-  /* scale: 1.2; */
+  /* scale: 1.05; */
   /* transition: 0.1s ease-in-out; */
-  padding: 15rem;
+  /* padding: 15rem; */
   /* height: 20rem; */
+  height:30rem;
+  width: 30rem;
+  transition: opacity 1s, display 2s;
   cursor: pointer;
-  margin:2rem;
-  transition: 0.1s ease-out;
-  position: absolute;
-
+  /* margin:2rem; */
+  /* transition: 0.1s ease-out; */
 }
 
 
@@ -125,7 +133,8 @@ h4{
   scale: 0.8 !important;
 }
 .hover-cont{
-  display: none;
+  /* display: none; */
+  opacity: 0;
 }
 
 #clients{
