@@ -139,8 +139,9 @@ ul {
     transition: 0.4s ease-in;
     animation: slide-right .4s forwards !important;
 }
-.btn-primary:visited, .btn-primary:focus{
+.btn-primary:visited, .btn-primary:focus, .btn-primary:focus-within{
   background: var(--primary);
+  border:1px solid var(--primary);
 }
 @keyframes slide-left {
   from {
