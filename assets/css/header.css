@@ -213,6 +213,15 @@ padding:1rem;
 
   }
 
+  @media all and (min-width:1550px) {
+    .navbar .megamenu { 
+      width: 40%;
+    }
+    .dropdown-menu[data-bs-popper] {
+      right: 20rem !important;
+    }
+  }
+
   @media all and (max-width: 1025px) {
 
     .navbar .has-megamenu {
@@ -220,7 +229,7 @@ padding:1rem;
     }
 
     .navbar .megamenu {
-      width: 75%;
+      width: 85%;
       margin-top: 1rem !important;
       padding: 1rem;
       position: absolute;
