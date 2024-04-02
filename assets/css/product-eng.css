@@ -145,7 +145,7 @@ h4{
   font-size: 1.4rem;
   line-height: 2.6rem;
   text-align: center;
-  padding: 0 3rem;
+  padding: 0 1rem;
 }
 
 #choose p b{
@@ -173,7 +173,8 @@ h4{
   background: url('../img/product-engineering/Group\ 53.svg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: 145%;
   width: 50rem;
   height: 40rem;
   margin: 0.5rem;
@@ -184,7 +185,8 @@ h4{
   background: url('../img/product-engineering/Group\ 54.svg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: 145%;
   width: 50rem;
   height: 40rem;
   margin: 0.5rem;
@@ -261,6 +263,11 @@ h4{
   .round1, .round2,  .round3,  .round4{
     width: 75vw;
     height: 60vh;
+    background-size: cover;
+  }
+
+  #choose p{
+    padding: 0 3rem;
   }
  
 }

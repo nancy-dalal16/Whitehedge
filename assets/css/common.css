@@ -139,7 +139,9 @@ ul {
     transition: 0.4s ease-in;
     animation: slide-right .4s forwards !important;
 }
-
+.btn-primary:visited, .btn-primary:focus{
+  background: var(--primary);
+}
 @keyframes slide-left {
   from {
     box-shadow: inset 8.79928em 0 0 0.01px var(--lightblue);
@@ -299,6 +301,18 @@ h5{
 
   .subtitle{
     text-align: center;
+  }
+  .test-contain .desc {
+    margin-top: -10rem !important;
+  }
+  .sec-1 {
+    top:-8rem;
+  }
+  .sec-1 img {
+    width:25% !important;
+  }
+  video{
+    outline-offset: -2px !important;
   }
 
 }

@@ -1,9 +1,36 @@
 .line1{
-  margin-bottom: 12rem;
+  margin-bottom: 22rem;
 }
 .line2{
-  margin-top: -5rem;
+  margin-top: 5rem;
 }
 .square:hover{
   position: absolute;
+}
+
+.round1, .round2, .round3, .round4{
+  background-size: 150%;
+}
+
+
+@media(max-width:680px){
+  .square:hover{
+    position: relative;
+  }
+
+  .sqr2 {
+    margin-bottom: 0rem;
+  }
+  .sqr3, .sqr1{
+    margin-top:5rem
+  }  
+  .line1, .line2{
+    transform: rotate(90deg);
+    margin:5rem;
+  }
+  .round1, .round2, .round3, .round4{
+    background-size: cover;
+  }
+  
+
 }
