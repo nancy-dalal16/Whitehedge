@@ -24,16 +24,26 @@
 .rocket-box{
   margin:3rem;
 }
-.rocket-box:hover .rocket{
+.rocket-box:hover .round-back{
   transform: scale(1.2);
-  transition: .4s ease-in;
+  transition: .4s ease-in-out;
+}
+
+.round-back{
+  position: absolute;
+  background: #fff;
+  padding: 8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .rocket{
   position: absolute;
-  width: 48%;
-  background: #fff;
-  border-radius: 50%;
-  padding: 4rem;
+  width: 50%;
+  /* background: #fff; */
+  /* border-radius: 50%; */
+  /* padding: 4rem; */
   overflow: visible;
   /* animation: updown 2s ease infinite; */
 }
@@ -118,6 +128,12 @@
 @media(max-width:680px){
   #hero h1, #hero p, .section-title h2, #about p{
     text-align: center;
+  }
+  .round-back{
+    padding: 6rem;
+  }
+  .rocket{
+    width: 60% !important;
   }
   
 }
