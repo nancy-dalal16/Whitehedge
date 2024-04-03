@@ -59,16 +59,19 @@ header #logo img{
   padding: 3rem;
 }
 .navbar-nav li a:hover .menu-icon1{
- background-image: url('../img/home/Product-Engineering.gif');
- background-size: 4.5rem;
+ /* background-image: url('../img/home/Product-Engineering.gif');
+ background-size: 4.5rem; */
+ scale: 1.12;
 }
 .navbar-nav li a:hover .menu-icon2{
-  background-image: url('../img/home/Cloud-and-Digital-Engineering.gif');
-  background-size: 4.5rem;
+  /* background-image: url('../img/home/Cloud-and-Digital-Engineering.gif');
+  background-size: 4.5rem; */
+  scale: 1.12;
  }
  .navbar-nav li a:hover .menu-icon3{
-  background-image: url('../img/home/ODC_Dark.gif');
-  background-size: 4.8rem;
+  /* background-image: url('../img/home/ODC_Dark.gif');
+  background-size: 4.8rem; */
+  scale: 1.12;
  }
 
 .navbar .megamenu {
@@ -183,6 +186,8 @@ padding:1rem;
 
 .dropdown-item{
   white-space: wrap;
+  white-space-collapse: collapse;
+  text-wrap: wrap;
 }
 
 .dropdown-item.active, .dropdown-item:active {
