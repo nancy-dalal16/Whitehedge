@@ -1,0 +1,38 @@
+
+.sp-card1{
+  background: url('../img/about/product\ development-back.svg') #fff;
+  
+}
+
+.sp-card1, .sp-card2, .sp-card3, .sp-card4{
+  border-radius: 3rem;
+  background-position: bottom 10px right 10px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  height: 20rem;
+  width: 45rem;
+    position: relative;
+    margin-left: 8rem;
+    margin-bottom: 4rem;
+  /* margin: 1rem 4rem; */
+  position: relative;
+  box-shadow: 0px 1px 10px 1px #0000001A;
+}
+
+.sp-img{
+  position: absolute;
+  left: -5rem;
+  top: 5rem;
+}
+
+.sp-det{
+  padding: 0 5rem;
+}
+.sp-img img{
+  background-color: var(--lightblue);
+  box-shadow: 0px 1px 10px 1px #0000001A;
+  border-radius: 1rem;
+  padding: 2rem;
+  position: absolute;
+}

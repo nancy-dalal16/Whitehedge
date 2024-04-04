@@ -138,6 +138,17 @@ padding:1rem;
 
 }
 
+.bx-chevron-down{
+  transform: rotate(0deg);
+  transition: transform 1s linear;
+}
+
+
+.bx-chevron-down.open{
+  transform: rotate(180deg);
+  transition: transform 1s linear;
+}
+
 /*New Mneu */
 .navbar .megamenu {
   padding: 1rem;
