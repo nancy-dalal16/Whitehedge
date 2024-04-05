@@ -83,6 +83,7 @@
 
 .lead-card:hover{
   background-color: #020D23;
+  transition: 0.1s ease-in;
 }
 .lead-card:hover h4, .lead-card:hover p{
   color:var(--white);
@@ -139,6 +140,57 @@
   scale: 1.12;
 }
 
+.continue{
+  content: url('../img/about/continuous.svg');
+}
+.equality{
+  content: url('../img/about/equality.svg');
+}
+.startup{
+  content: url('../img/about/startup-friendly.png');
+}
+.no-uncertain{
+  content: url('../img/about/No\ uncertainity.svg');
+}
+.low-attrition{
+  content: url('../img/about/low\ attrition.svg');
+}
+.honest{
+  content: url('../img/about/honest.svg');
+}
+.high-customer{
+  content: url('../img/about/high\ customer.svg');
+}
+
+.abt-sqr:hover .continue{
+  content: url('../img/about/continue-back.svg');
+}
+.abt-sqr:hover .equality{
+  content: url('../img/about/equality-back.svg');
+}
+.abt-sqr:hover .startup{
+  content: url('../img/about/startup-back.svg');
+}
+.abt-sqr:hover .no-uncertain{
+  content: url('../img/about/no-back.svg');
+}
+.abt-sqr:hover .low-attrition{
+  content: url('../img/about/low-attrition-back.svg');
+}
+.abt-sqr:hover .honest{
+  content: url('../img/about/honest-back.svg');
+}
+.abt-sqr:hover .high-customer{
+  content: url('../img/about/high-customer-back.svg');
+}
+
+.abt-sqr:hover{
+  background: #193975;
+  transition: 0.1s ease-in;
+}
+.abt-sqr:hover h6{
+  color: var(--white);
+}
 @media(max-width:680px){
   .sp-card{
     width: 40rem;
