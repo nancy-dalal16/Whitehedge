@@ -51,7 +51,7 @@
 }
 
 .sp-card:hover{
-  scale: 1.12;
+  scale: 1.02;
   background-color: #193975;
   transition: 0.1s ease-in;
 }
@@ -84,6 +84,7 @@
 .lead-card:hover{
   background-color: #020D23;
   transition: 0.1s ease-in;
+  cursor: pointer;
 }
 .lead-card:hover h4, .lead-card:hover p{
   color:var(--white);
