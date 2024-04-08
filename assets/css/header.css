@@ -139,6 +139,12 @@ padding:1rem;
   transform: rotate(180deg);
 }
 
+
+@media(max-width:767px){
+    header{
+      background-color: var(--white);
+    }
+}
 @media(max-width:680px) {
 
   .header{

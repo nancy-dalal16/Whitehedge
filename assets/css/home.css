@@ -111,6 +111,10 @@
  
 }
 
+.blog-det a:hover{
+  color:var(--lightblue);
+}
+
 @keyframes updown {
   0% {
       transform: translateY(-7%);

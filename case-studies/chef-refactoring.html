@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhiteHedge</title>
+
+  <!--Icons-->
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="../assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon.png">
+
+
+  <!-- CSS References -->
+  <link rel="stylesheet " href="../assets/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet " href="../assets/plugins/carousel/owl.carousel.min.css" type="text/css" />
+  <link rel="stylesheet " href="../assets/plugins/scroll_animation/scroll-animation.css" type="text/css" />
+  <link rel="stylesheet " href="../assets/css/common.css" type="text/css" />
+  <link rel="stylesheet " href="../assets/css/home.css" type="text/css" />
+  <link rel="stylesheet " href="../assets/css/header.css" type="text/css" />
+  <link rel="stylesheet " href="../assets/css/footer.css" type="text/css" />
+  <link rel="stylesheet " href="../assets/css/case-study.css" type="text/css" />
+
+
+  <!-- JS References -->
+  <script src="../assets/js/jquery.js "></script>
+
+  <!-- Icons References -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container col-md-10">
+        <a href="./" id="logo">
+          <img src="../assets/img/WhiteHedge-Logo-XLrg_V1 1.svg" alt="WhiteHedge Logo" width="100%" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <i class='bx bx-menu bx-lg mobile-nav-icon' name="menu-outline"></i>
+        </button>
+        <div class="collapse navbar-collapse " id="main_nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="./about"> About </a></li>
+
+            <li class="nav-item dropdown"><a class="nav-link" href="#" data-bs-toggle="dropdown" id="nav__links"><span
+                  class="d-flex align-items-center"> Services <i class='bx bx-md bx-chevron-down'></i></span>
+              </a>
+              <div class="dropdown-menu megamenu" role="menu">
+                <ul class="list-unstyled">
+                  <li><a class="nav-link" href="./product-engineering">
+                      <div class="menu-item d-flex align-items-center gap-4">
+                        <img src="assets/img/Outsourced-Product-Dev.svg" alt="icon" class="menu-icon1">
+                        Product Engineering
+                      </div>
+                    </a></li>
+                  <li><a class="nav-link" href="./cloud-and-digital-engineering">
+                      <div class="menu-item d-flex align-items-center gap-4">
+                        <img src="assets/img/Cloud and Digital Engineering.svg" alt="icon" class="menu-icon2">
+                        Cloud and Digital Engineering
+                      </div>
+                    </a></li>
+                  <li><a class="nav-link" href="./offshore-product-center">
+                      <div class="menu-item d-flex align-items-center gap-4">
+                        <img src="assets/img/ODC.svg" alt="icon" class="menu-icon3">
+                        Offshore Development Center (ODC)
+                      </div>
+                    </a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#"> Resources </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> Testimonials </a></li>
+            <li class="nav-item"><a class="nav-link btn-primary" href="./contact-us"><span
+                  class="d-flex align-items-center">Contact
+                  us &nbsp;<i class='bx bxs-right-arrow-alt bx-md'></i></span></a>
+            </li>
+          </ul>
+
+        </div> <!-- navbar-collapse.// -->
+      </div> <!-- container-fluid.// -->
+    </nav>
+  </header>
+
+
+  <!--Hero Section Starts-->
+  <section id="hero-back" class="m-0 p-0">
+    <img src="../assets/img/case-study/hero-back.svg" alt="back img" width="110%">
+  </section>
+  <!--Hero Section Ends-->
+
+  <!--Blog Content Section Starts-->
+
+  <section id="blog-detail" class="page-section p-5" data-aos="zoom-in-up" data-aos-delay="400">
+    <div class="container col-md-10 d-flex flex-column justify-content-center align-items-center">
+      <img src="../assets/img/case-study/case-study demo img.svg" alt="image" width="90%">
+    </div>
+    <div class="container col-md-10 mt-5">
+      <div class="section-title text-start">
+        <h2>About the Client</h2>
+        <p class="mt-3">Company’s customer engaging platform assists several hundred million visitors across all
+          channels and engages in 1.5 billion conversations annually, most of which are automated.</p>
+        <h2 class="mt-5">The Business Challenge</h2>
+        <p class="mt-3">The client was maintaining the cookbooks directly on the chef server which is not a recommended
+          practise. Multiple random community cookbooks were in use. Run lists were a mix of community cookbooks. Their
+          environment lacked SCM repository for cookbooks. No application cookbooks were in place. Version control was
+          amiss. Due to the above problems the client had issues with the chef setup in operation and was unable to
+          maintain the cookbooks, badly affecting their automated customer engagements. Weak chef skills further lead to
+          prolonged resolution times.</p>
+        <h2 class="mt-5">How Whitehedge helped</h2>
+        <p class="mt-3">Whitehedge started by adding all the cookbooks to a GITHUB organisation. After carefully
+          identifying the nature of deployment we segregated only the required packages and technologies. We understand
+          that community cookbooks make the implementation too generic, defeating the entire purpose. One such instance
+          seen here was that an nginx cookbook had a LAMP dependency which was not required by the client application
+          thus adding on to the unused code. We standardized the cookbook development by writing chef libraries for
+          packages to be installed and configured. We followed the 12-Factor Apps methodology and put it into
+          development practise.</p>
+        <h2 class="mt-5">The Benefits</h2>
+        <p class="mt-3">Post refactoring, the cookbooks development was standardized, version controlled and easy to
+          manage. Application specific cookbooks helped do away with unnecessary packages. Taking advantage of well
+          implemented chef libraries, even Ruby developers with basic knowledge of chef could contribute to chef
+          development. These changes positively affected their automated customer engagements.</p>
+        <h2 class="mt-5">About WhiteHedge</h2>
+        <p class="mt-3">WhiteHedge Technologies is an end-to-end software services and solutions provider to global
+          clients with operations spread across US, Europe and India. WhiteHedge has a team of professionals with expert
+          level experience in various technological and functional domain areas. WhiteHedge offers various engagement
+          models to get engaged with the clients to deliver better business value proposition.</p>
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+  <!--Blog Content Section Ends-->
+
+  <!--Newsletter Section Starts-->
+  <section id="join" class="p-5" data-aos="fade-up" data-aos-delay="400">
+    <div class="container col-md-10">
+      <div class="row d-flex justify-content-center align-items-center col-inv">
+        <div class="col-md-6">
+          <div class="section-title">
+            <h2 class="">
+              Join our Resources and get the latest activity update into your inbox monthly.
+            </h2>
+          </div>
+          <div class="input-form  mt-5">
+            <form action="" class="">
+              <input type="text" placeholder="Enter your email" />
+              <button type="submit">Let's go</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6  text-center">
+          <img src="../assets/img/case-study/join image.svg" alt="image" width="50%">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Newsletter Section Ends-->
+
+
+
+  <!--Connect Section Starts-->
+  <section id="connect" class="page-section" data-aos="zoom-in-up" data-aos-delay="400">
+    <div class="container d-flex justify-content-center align-items-center flex-column p-5">
+      <div class="subtitle text-center">
+        <p>CONNECT WITH US</p>
+      </div>
+      <h1 class="inverse text-center col-md-10">
+        Get in touch with us and start your journey
+        towards success.
+      </h1>
+
+      <a class="mt-5 btn-primary" href="contact-us"><span class="d-flex align-items-center">Contact us &nbsp;<i
+            class='bx bxs-right-arrow-alt bx-md'></i></span></a>
+    </div>
+  </section>
+  <!--Connect Section Ends-->
+
+  <!-- Footer Section Starts -->
+  <footer id="footer">
+    <div class="container col-md-10" data-aos="zoom-in-up" data-aos-delay="400">
+      <div class="row g-5">
+        <div class="col-md-3">
+          <img src="../assets/img/WhiteHedge-Logo-XLrg_V1 1.svg" alt="logo" width="100%">
+          <a href="tel:+91-20-67994020" class="mt-5 "><span class="d-flex align-items-center gap-3 contact-info"><i
+                class='bx bx-phone-call bx-md'></i>
+              +91-20-67994020</span></a>
+          <a href="mailto:info@whitehedge.com"><span class="d-flex align-items-center gap-3 contact-info"><i
+                class='bx bx-envelope bx-md'></i>
+              info@whitehedge.com</span></a>
+          <p><span class="d-flex align-items-start gap-3 contact-info"><i class='bx bx-map bx-md'></i>#201, AG
+              Trade Centre,
+              Ramnagar Colony, Bavdhan,Pune 411021
+              Maharashtra India</span></p>
+        </div>
+        <div class="col-md-3  offset-md-1">
+          <h4>Services</h4>
+          <a href="./product-engineering" class="mt-5">Product Engineering</a>
+          <a href="./cloud-and-digital-engineering">Cloud and digital engineering</a>
+          <a href="./offshore-product-center">Offshore development center</a>
+        </div>
+        <div class="col-md-3">
+          <h4>Company</h4>
+          <a href="./about" class="mt-5">About Us</a>
+          <a href="./contact-us">Contact Us</a>
+          <a href="./privacy-policy">Privacy Policy</a>
+          <a href="./Terms-and-conditions">Terms & Conditions</a>
+        </div>
+        <div class="col-md-2">
+          <h4>Legals</h4>
+          <a href="./privacy-policy" class="mt-5">Privacy Policy</a>
+          <a href="./Terms-and-conditions">Terms & Conditions</a>
+          <h4 class="mt-5 pt-2">Follow Us</h4>
+          <div class="social mt-5 d-flex">
+            <a href="#"><i class='bx bxl-facebook bx-md'></i></a>
+            <a href="#"><i class='bx bxl-linkedin bx-md'></i></a>
+            <a href="#"><i class='bx bxl-twitter bx-md'></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container col-md-10 pt-5 pb-5 d-flex justify-content-between align-items-center flex-wrap">
+      <p>Copyright 2024. All rights reserved by <a href="./" style="color:#122750;font-weight:900; opacity: 1;"
+          class="company-name">WhiteHedge</a></p>
+      <p>Designed and developed by <a href="https://kathart.studio/" target="_blank"
+          style="color:#122750;font-weight:900;opacity: 1;" class="company-name">Kathart
+          Studios </a></p>
+    </div>
+
+  </footer>
+  <!-- Footer Section Ends -->
+
+  <!-- JS References -->
+  <script src="../assets/js/bootstrap.min.js "></script>
+  <script src="../assets/plugins/scroll_animation/scroll-animation.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/header.js"></script>
+  <script src="../assets/plugins/carousel/owl.carousel.min.js"></script>
+  <script src="../assets/plugins/scroll_animation/scroll-animation.js"></script>
+  <script src="../assets/js/home.js"></script>
+  <script src="../assets/js/arrow.js"></script>
+
+</body>
+
+</html>
