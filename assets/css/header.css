@@ -58,6 +58,10 @@ header #logo img{
   border-radius: 4px;
   padding: 3rem;
 }
+
+.menu-item img{
+  width: 20%;
+}
 .navbar-nav li a:hover .menu-icon1{
  /* background-image: url('../img/home/Product-Engineering.gif');
  background-size: 4.5rem; */
@@ -113,8 +117,9 @@ padding:1rem;
 
 
 .dropdown-menu[data-bs-popper] {
-  right: 0 !important;
+  /* right: 0 !important; */
   left:auto !important;
+  min-width: 30rem;
   }
   
 .list-unstyled{
@@ -217,7 +222,8 @@ padding:1rem;
     }
 
     .navbar .megamenu {
-      width: 60%;
+      /* width: 60%; */
+      box-sizing: border-box;
       margin-top: 0rem !important;
       padding: 1rem;
       position: absolute;
@@ -231,7 +237,7 @@ padding:1rem;
 
   @media all and (min-width:1550px) {
     .navbar .megamenu { 
-      width: 40%;
+      /* width: 40%; */
     }
     .dropdown-menu[data-bs-popper] {
       right: 20rem !important;
@@ -245,7 +251,7 @@ padding:1rem;
     }
 
     .navbar .megamenu {
-      width: 85%;
+      /* width: 85%; */
       margin-top: 1rem !important;
       padding: 1rem;
       position: absolute;
