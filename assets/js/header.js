@@ -14,34 +14,13 @@ mobile_nav.addEventListener("click", () => toggleNavbar(
 
 
 
-(function(document){
-    var div = document.getElementById('servicemenu');
-   
-    var icon = document.getElementById('icon');
-    var open = false;
-    
-    div.addEventListener('click', function(){
-      if(open){
-        icon.className = 'fa fa-arrow-down';  
-      } else{
-        icon.className = 'fa fa-arrow-down open';
-      }
-      
-      open = !open;
-    });
-  })(document);
-
-
-
-
 // $('#servicemenu').click(function() {
-    // icon = $(this).find("i");
-    // if( icon.hasClass("bx bx-md bx-chevron-down"))
-    // {
-    //     icon.addClass("bx bx-md bx-chevron-up").removeClass("bx bx-md bx-chevron-down");
-    // }
-    // else{
-    //     icon.addClass("bx bx-md bx-chevron-down").removeClass("bx bx-md bx-chevron-up");
-    //   }
-  
+//     icon = $(this).find("i");
+//     if( icon.hasClass("bx-chevron-down"))
+//     {
+//         icon.addClass("open");
+//     }
+//     else{
+//         icon.removeClass("open");
+//       }
 // });
