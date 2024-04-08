@@ -34,7 +34,7 @@ header #logo img{
   background-position: center;
   background-size: 4.5rem;
   width: 80%;
-  background-color: var(--links);
+  /* background-color: var(--links); */
   border-radius: 4px;
   padding: 3rem;
 }
@@ -44,7 +44,7 @@ header #logo img{
   background-position: center;
   background-size: 10rem;
   width: 80%;
-  background-color: var(--links);
+  /* background-color: var(--links); */
   border-radius: 4px;
   padding: 3rem;
 }
@@ -54,7 +54,7 @@ header #logo img{
   background-position: center;
   background-size: 4.8rem;
   width: 80%;
-  background-color: var(--links);
+  /* background-color: var(--links); */
   border-radius: 4px;
   padding: 3rem;
 }
@@ -65,17 +65,17 @@ header #logo img{
 .navbar-nav li a:hover .menu-icon1{
  /* background-image: url('../img/home/Product-Engineering.gif');
  background-size: 4.5rem; */
- scale: 1.12;
+ scale: 1.2;
 }
 .navbar-nav li a:hover .menu-icon2{
   /* background-image: url('../img/home/Cloud-and-Digital-Engineering.gif');
   background-size: 4.5rem; */
-  scale: 1.12;
+  scale: 1.2;
  }
  .navbar-nav li a:hover .menu-icon3{
   /* background-image: url('../img/home/ODC_Dark.gif');
   background-size: 4.8rem; */
-  scale: 1.12;
+  scale: 1.2;
  }
 
 .navbar .megamenu {
@@ -87,6 +87,7 @@ header #logo img{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin:1rem 0;
 }
 
 .navbar-nav li a {
@@ -142,6 +143,9 @@ padding:1rem;
   }
   .menu-icon1{
     padding: 4.5rem;
+  }
+  .navbar-collapse li{
+    margin: 0;
   }
 
 }
