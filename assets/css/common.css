@@ -222,6 +222,7 @@ h5{
   .sec-1 img{
     width: 20% !important;
     margin:3rem;
+    border-radius: 50%;
   }
 
   .test-det{
