@@ -1,0 +1,142 @@
+#hero-back{
+ background: #031E39;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10rem 0rem;
+}
+
+#hero-back h1{
+  font-size: 5.2rem;
+  line-height: 6.2rem;
+  font-weight: var(--bold);
+}
+
+header{
+position: relative;
+z-index: 999;
+background: #031E39;
+}
+
+.navbar-nav li a { 
+color:var(--white);
+}
+.list-unstyled .nav-link{
+color:var(--black);
+}
+p{
+text-align: justify;
+opacity: 1;
+}
+#join{
+background-color: #FFAD63;
+}
+
+
+.input-form input[type="text"]{
+font-size: 1.4rem;
+background: transparent;
+line-height: 1.6rem;
+color: var(--black);
+border-radius: 2rem;
+padding: 1rem 2rem;
+border: 1px solid var(--black);
+width: 35rem;
+padding-right: 5rem;
+}
+
+.input-form form button[type="submit"] {
+margin-left: -10.6rem;
+width: 10rem;
+background: var(--black);
+color: var(--white);
+border: 0;
+padding: 0.4rem 2rem;
+border-radius: 2rem;
+font-size: 1.6rem;
+font-weight: var(--semibold);
+}
+.input-form form button[type="submit"]:hover{
+background: var(--white);
+color:var(--black);
+border:0;
+}
+
+::placeholder{
+color:var(--black);
+}
+
+input:focus-visible{
+outline: none;
+border: 0;
+}
+
+.scroll-container{
+  height: 100%;
+  -ms-scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+#testimonial .row{
+  padding:7rem 0rem;
+}
+
+#testimonial:nth-child(2n)
+{
+  background-color: var(--white);
+}
+.test-image img{
+  border-radius: 50%;
+}
+ul li{
+font-size: 1.6rem;
+line-height: 2.4rem;
+font-weight: var(--regular);
+color: var(--black);
+opacity: 1;
+margin:1.5rem 0rem;
+}
+
+ul {
+list-style: inside;
+padding:2rem;
+}
+.test-design {
+  border-left: 2px solid #00A7FA;
+  padding-left:1rem;
+}
+.test-design h4{
+font-size: 2rem;
+line-height: 2.4rem;
+font-weight: var(--bold);
+}
+.test-design h6{
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: var(--light);
+}
+.test-design p{
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: var(--regular);
+}
+@media(max-width:767px){
+.navbar-nav li a { 
+ color:var(--black);
+ }
+
+ header{
+   background-color: var(--white);
+ }
+
+}
+
+@media(max-width:680px) {
+.input-form{
+ text-align: center;
+}
+#join img{
+ margin-bottom:2rem
+}
+}
