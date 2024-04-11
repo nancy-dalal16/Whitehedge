@@ -94,6 +94,10 @@ ul {
 }
 
 @media(max-width:680px) {
+  #hero-back img{
+   width: 150%;
+  }
+
   .input-form{
     text-align: center;
   }
