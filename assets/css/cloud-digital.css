@@ -71,10 +71,17 @@ margin-bottom: 8rem;
   .sqr4, .sqr5{
     margin-top: 10rem;
   } 
-  .round1, .round2,  .round3,  .round4{
+  /* .round1, .round2,  .round3,  .round4{
     width: 75vw;
     height: 60vh;
+  } */
+
+  .round1, .round2,  .round3,  .round4{
+    width: 90vw;
+    height: 60vh;
+    background-size: cover;
   }
+
   .square:hover{
     position: relative;
   }

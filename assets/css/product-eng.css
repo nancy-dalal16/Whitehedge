@@ -260,14 +260,20 @@ h4{
     margin-top:-9rem;
   }
 
-  .round1, .round2,  .round3,  .round4{
+  /* .round1, .round2,  .round3,  .round4{
     width: 75vw;
+    height: 60vh;
+    background-size: cover;
+  } */
+  .round1, .round2,  .round3,  .round4{
+    width: 90vw;
     height: 60vh;
     background-size: cover;
   }
 
   #choose p{
     padding: 0 3rem;
+    font-size: 1.6rem;
   }
  
 }
