@@ -36,7 +36,7 @@
 
 <body>
 
-  <header class="header">
+  <header class="header" id="header">
     <nav class="navbar navbar-expand-lg">
       <div class="container col-md-10">
         <a href="../" id="logo">
@@ -76,7 +76,7 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#"> Resources </a></li>
+            <li class="nav-item"><a class="nav-link" href="./#blogs"> Resources </a></li>
             <li class="nav-item"><a class="nav-link" href="./testimonials"> Testimonials </a></li>
             <li class="nav-item"><a class="nav-link btn-primary" href="./contact-us"><span
                   class="d-flex align-items-center">Contact
@@ -84,22 +84,21 @@
             </li>
           </ul>
 
-        </div> <!-- navbar-collapse.// -->
-      </div> <!-- container-fluid.// -->
+        </div>
+      </div>
     </nav>
   </header>
 
 
   <!--Hero Section Starts-->
-  <section id="hero-back" class="">
-    <!-- <img src="assets/img/case-study/hero-back.svg" alt="back img" width="110%"> -->
+  <!-- <section id="hero-back" class="">
     <h1 class="inverse">Client Testimonials</h1>
-  </section>
+  </section> -->
   <!--Hero Section Ends-->
 
   <!--Testimonial Details Section Starts-->
   <div class="scroll-container">
-    <section id="testimonial" data-aos="fade-up" data-aos-delay="400">
+    <section id="testimonial">
       <div class="container col-md-10">
         <div class="row col-inv">
           <div class="col-md-7">
@@ -149,7 +148,7 @@
         </div>
       </div>
     </section>
-    <section id="testimonial" data-aos="fade-up" data-aos-delay="400">
+    <section id="testimonial">
       <div class="container col-md-10">
         <div class="row">
           <div class="col-md-5 d-flex flex-column justify-content-center align-items-center">
@@ -187,7 +186,7 @@
         </div>
       </div>
     </section>
-    <section id="testimonial" data-aos="fade-up" data-aos-delay="400">
+    <section id="testimonial">
       <div class="container col-md-10">
         <div class="row col-inv">
           <div class="col-md-7">
@@ -271,6 +270,21 @@
   <script src="assets/plugins/scroll_animation/scroll-animation.js"></script>
   <script src="assets/js/home.js"></script>
   <script src="assets/js/arrow.js"></script>
+
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
 
 </body>
 
