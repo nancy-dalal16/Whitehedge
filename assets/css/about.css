@@ -142,25 +142,39 @@
 }
 
 .continue{
-  content: url('../img/about/continuous.svg');
+  content: url('../img/about/Continuous-Improvement-Continuous-Development-ezgif.com-crop.gif');
+  width: 10rem;
+  height: 10rem;
 }
 .equality{
-  content: url('../img/about/equality.svg');
+  content: url('../img/about/Equality-in-the-business-is-core-ezgif.com-crop.gif');
+  width: 10rem;
+  height: 10rem;
 }
 .startup{
-  content: url('../img/about/startup-friendly.png');
+  content: url('../img/about/Startup-Friendly-ezgif.com-crop.gif');
+  width: 10rem;
+  height: 10rem;
 }
 .no-uncertain{
-  content: url('../img/about/No\ uncertainity.svg');
+  content: url('../img/about/No-Uncertainity-ezgif.com-crop.gif');
+  width: 10rem;
+  height: 10rem;
 }
 .low-attrition{
-  content: url('../img/about/low\ attrition.svg');
+  content: url('../img/about/Low-Attrition-ezgif.com-crop.gif');
+  width: 10rem;
+  height: 10rem;
 }
 .honest{
-  content: url('../img/about/honest.svg');
+  content: url('../img/about/Honest--transparent-ezgif.com-crop.gif');
+  width: 10rem;
+  height: 10rem;
 }
 .high-customer{
-  content: url('../img/about/high\ customer.svg');
+  content: url('../img/about/High-Customer-Retention-ezgif.com-crop.gif');
+  width: 10rem;
+  height: 10rem;
 }
 
 .abt-sqr:hover .continue{
