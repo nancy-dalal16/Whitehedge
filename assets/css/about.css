@@ -22,11 +22,12 @@
   background-position: bottom 10px right 10px;
   background-size: auto;
   background-repeat: no-repeat;
+  background-color:var(--white);
   padding: 1rem;
   height: 20rem;
   width: 50rem;
   position: relative;
-  margin-left: 8rem;
+  margin-left: 4rem;
   margin-bottom: 4rem;
   /* margin: 1rem 4rem; */
   position: relative;
@@ -143,65 +144,79 @@
 
 .continue{
   content: url('../img/about/Continuous-Improvement-Continuous-Development-ezgif.com-crop.gif');
-  width: 10rem;
-  height: 10rem;
+  width: 7rem;
+  height: 7rem;
 }
 .equality{
   content: url('../img/about/Equality-in-the-business-is-core-ezgif.com-crop.gif');
-  width: 10rem;
-  height: 10rem;
+   width: 7rem;
+  height: 7rem;
 }
 .startup{
   content: url('../img/about/Startup-Friendly-ezgif.com-crop.gif');
-  width: 10rem;
-  height: 10rem;
+   width: 7rem;
+  height: 7rem;
 }
 .no-uncertain{
   content: url('../img/about/No-Uncertainity-ezgif.com-crop.gif');
-  width: 10rem;
-  height: 10rem;
+  width: 6rem;
+  height: 7rem;
 }
 .low-attrition{
   content: url('../img/about/Low-Attrition-ezgif.com-crop.gif');
-  width: 10rem;
-  height: 10rem;
+  width: 6.3rem;
+  height: 7rem;
 }
 .honest{
   content: url('../img/about/Honest--transparent-ezgif.com-crop.gif');
-  width: 10rem;
-  height: 10rem;
+  width: 7rem;
+  height: 7rem;
 }
 .high-customer{
   content: url('../img/about/High-Customer-Retention-ezgif.com-crop.gif');
-  width: 10rem;
-  height: 10rem;
+ width: 6.6rem;
+  height: 7rem;
 }
 
 .abt-sqr:hover .continue{
-  content: url('../img/about/continue-back.svg');
+  content: url('../img/about/Continuous-Improvement-orange-ezgif.com-crop.gif');
+  width: 7rem;
+  height: 7rem;
 }
 .abt-sqr:hover .equality{
-  content: url('../img/about/equality-back.svg');
+  content: url('../img/about/Equality-orange-ezgif.com-crop.gif');
+  width: 7rem;
+  height: 7rem;
 }
 .abt-sqr:hover .startup{
-  content: url('../img/about/startup-back.svg');
+  content: url('../img/about/Startup-Friendly-orange-ezgif.com-crop.gif');
+  width: 7rem;
+  height: 7rem;
 }
 .abt-sqr:hover .no-uncertain{
-  content: url('../img/about/no-back.svg');
+  content: url('../img/about/No-Uncertainity-orange-ezgif.com-crop.gif');
+  width: 6rem;
+  height: 7rem;
 }
 .abt-sqr:hover .low-attrition{
-  content: url('../img/about/low-attrition-back.svg');
+  content: url('../img/about/Low-Attrition-orange-ezgif.com-crop.gif');
+  width: 6.3rem;
+  height: 7rem;
 }
 .abt-sqr:hover .honest{
-  content: url('../img/about/honest-back.svg');
+  content: url('../img/about/Honest--transparent-orange-ezgif.com-crop.gif');
+  width: 7rem;
+  height: 7rem;
 }
 .abt-sqr:hover .high-customer{
-  content: url('../img/about/high-customer-back.svg');
+  content: url('../img/about/High-Customer-orange-ezgif.com-crop.gif');
+  width: 6.6rem;
+  height: 7rem;
 }
 
 .abt-sqr:hover{
   background: #193975;
-  transition: 0.1s ease-in;
+  /* transition: 0.1s ease-in; */
 }
 .abt-sqr:hover h6{
   color: var(--white);
@@ -224,5 +239,9 @@
   }
   .row3{
     margin-top:10rem;
+  }
+
+  #leader .container{
+    padding: 0 7rem;
   }
 }
