@@ -46,7 +46,7 @@
         <div class="col-md-6">
           <div class="contact-form">
             <h2>Get in touch</h2>
-            <form name="contact" method="post" action="contact-handler.php" autocomplete="off" class="mt-5">
+            <form name="contact" autocomplete="off" class="mt-5">
 
               <div class="form-group d-flex align-items-center">
                 <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
@@ -72,7 +72,7 @@
 
               </div>
 
-              <div class="mt-3" id="result">
+              <div class="mt-3" id="result-text">
 
               </div>
 
@@ -142,6 +142,49 @@
   <script src="assets/js/arrow.js"></script>
 
 
+  <script>
+    const form = document.querySelector('form')
+    form.addEventListener('submit', event => {
+      // prevent the form submit from refreshing the page
+      event.preventDefault()
+
+      const { name, email, subject, comment } = event.target
+      console.log('Name: ', name.value)
+      console.log('email: ', email.value)
+      console.log('Subject: ', subject.value)
+      console.log('Message: ', comment.value)
+
+      const endpoint =
+        "<https://olwtaj1i7h.execute-api.ap-south-1.amazonaws.com/default/Sendmail_WH_Website_S3>";
+      // We use JSON.stringify here so the data can be sent as a string via HTTP
+      const body = JSON.stringify({
+        senderName: name.value,
+        senderEmail: email.value,
+        subject: subject.value,
+        message: comment.value
+      });
+      const requestOptions = {
+        method: "POST",
+        body
+      };
+
+      fetch(endpoint, requestOptions)
+        .then((response) => {
+          if (!response.ok) throw new Error("Error in fetch");
+          return response.json();
+        })
+        .then((response) => {
+          document.getElementById("result-text").innerText =
+            "Email sent successfully!";
+        })
+        .catch((error) => {
+          document.getElementById("result-text").innerText =
+            "An unkown error occured.";
+        });
+    });
+
+
+  </script>
 </body>
 
 </html>
